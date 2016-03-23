@@ -3,6 +3,7 @@ public class For_Loop_Gauntlet {
 
 	public static void main(String[] args) {
 		int age = 0;
+		int num = 100;
 		for (int i = 0; i < 101; i++) {
 			System.out.println(i);
 		}
@@ -55,6 +56,10 @@ public class For_Loop_Gauntlet {
 				System.out.print("*");				
 			}
 			System.out.println(" ");
+		}
+		for (int i = 0; i < 101; i++) {
+			System.out.println(num);
+			num--;
 		}
 	}
 	
