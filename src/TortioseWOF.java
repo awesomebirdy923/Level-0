@@ -27,5 +27,7 @@ public static void main(String[] args) {
 	 * 
 	 * Hint: The distance between stars is 50.
 	 */
+
+	
 }
 }

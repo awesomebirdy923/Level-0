@@ -18,6 +18,8 @@ public class Tortoise_Spiral {
 		}
 		if (color.equals("blue") || color.equals("Blue")) {
 			Tortoise.setPenColor(Color.blue);
+		} else{
+			Tortoise.setPenColor(Color.red);
 		}
 		Tortoise.setSpeed(10);
 		for (int i = 0; i < 10000; i++) {
